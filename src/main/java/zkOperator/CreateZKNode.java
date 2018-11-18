@@ -1,5 +1,5 @@
 /**
- * 
+ * 使用zookeeper的原生API创建节点
  */
 package zkOperator;
 

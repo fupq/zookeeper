@@ -26,6 +26,19 @@
 	    <artifactId>jmxri</artifactId>
 	    <version>1.2.1</version>
 	</dependency> -->
+	<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+	<dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>1.2.17</version>
+	</dependency>
+	<!-- 引入zkclinetjar包：Zookeeper的原生API，就之前的那一些，用起来还是比较麻烦的，所以，有些工程师对原生的API接口进行了封装，简化了ZK的复杂性。 -->
+	<!-- https://mvnrepository.com/artifact/com.101tec/zkclient -->
+	<dependency>
+	    <groupId>com.101tec</groupId>
+	    <artifactId>zkclient</artifactId>
+	    <version>0.10</version>
+	</dependency>
 
   </dependencies>
 </project>
